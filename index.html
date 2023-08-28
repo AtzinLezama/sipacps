@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/cards1.css">
+    <link rel="stylesheet" href="css/cards2.scss">
+    <link rel="stylesheet" href="css/mapa.css">
+    <link rel="stylesheet" href="css/background .css">
+    <link rel="stylesheet" href="css/nav.css">
+    
+    <title>Home</title>
+    
+</head>
+<body>
+    <div class="context">
+        
+    </div>
+
+
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+
+    
+
+    <section id="container-slider">	
+      
+      <a class="boton-transparente" href="html/login.html">Login</a>
+      
+        <a href="javascript: fntExecuteSlide('prev');" class="arrowPrev"><i class="fas fa-chevron-circle-left"></i></a>
+        <a href="javascript: fntExecuteSlide('next');" class="arrowNext"><i class="fas fa-chevron-circle-right"></i></a>
+        <ul class="listslider">
+          <li><a itlist="itList_0" href="#" class="item-select-slid"></a></li>
+          <li><a itlist="itList_1" href="#"></a></li>
+          <li><a itlist="itList_2" href="#"></a></li>
+        </ul>
+        <ul id="slider">
+          <li style="background-image: url('Image/condo1.jpg'); z-index:0; opacity: 1;">
+            <div class="content_slider" >
+              <div>
+                <h2>CONDOMINIOS</h2>
+            <p></p>
+           
+          </div>
+            </div>
+          </li>
+          <li style="background-image: url('Image/condo2.jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>PUESTA DEL SOL</h2>
+          </div>
+            </div>
+          </li>
+          <li style="background-image: url('Image/condo3.jpg'); ">
+            <div class="content_slider" >
+              <div>
+                <h2>THE SUNSET WAY OF LIFE</h2>    
+          </div>
+            </div>
+          </li>
+       </ul>
+     </section>
+
+     <ul class="cards">
+        <li>
+          <a href="resident.php" class="card">
+            <img src="https://images.pexels.com/photos/12809856/pexels-photo-12809856.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card__image" alt="" />
+            <div class="card__overlay">
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                <img class="card__thumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAABoklEQVRoge2ZMU7DMBSGPyqEmBBjK7EjcQIGbkAXOAVlLqwUwR3oKViYy8IAF0DiAIgVQZGgAwoDrygNiRO7tmu5/qVI8Yvz+319teMokJSUpNJKoZ0tJAtz/eXfWmQWNrVaES9WKjT9++dEU5EEEpoSSGjyAbInh1dl2H0orgGPwBOwbtG3Nk/bIOc5z4FFX68gO8AE+JZjIjEb8gbSAu7E6woYyvkDdualN5Bj8XkBNoEN4FliPQv+XkA6wKv4HOTihxJ7A7bmHMMLyLV43Ghe05FzkLpfvapaunIKkp8HR4p+PWbnj4mcgkxXpnvUK1NxRTORM5Bd9J4V28Cn3GOyfWkMYnqcaSQzsDCeExDd/dR0H+YEpAwqFCnzSe8joWkpQXQnXhcYAR/AWM73Lfhqq2ikM+Clot+FIYgxWFOjYrwr7S+gz+/+qgOcSCxjtjJNfb2D3Eq7X9L3VK6NDHy9g4yl3S7p25Zr7wa+3kHqBnTiG83yW/VZQSVX25a5fJeyIq4+/ljxjaYiCSQ0RQOimmghvR3mVZpzNBVJSkpS6wdwexV52AMZtgAAAABJRU5ErkJggg==" alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title">RESIDENTS</h3>            
+                 
+                </div>
+              </div>
+              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>      
+        </li>
+        <li>
+          <a href="staff.php" class="card">
+            <img src="https://images.pexels.com/photos/9072250/pexels-photo-9072250.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="card__image" alt="" />
+            <div class="card__overlay">        
+              <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
+                <img class="card__thumb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEK0lEQVRoge2ZyY9NQRTGfx6NBCGGTvrRxv9CCOlIE81SbNiY0mtpUydEQtgjFmysDE0isUAiPeiIGGJjjW5TRDqGaBI8PIs6lVuvXlXduvfdNsWXVN6tU9/5bp26NT/4j78b64Be4CMwKs8dBeu+BQaBTmByAdp1OAxUPenQGOkOo4IsDOtE+DPQBbRI2iW2Kvm+jEt3DrAFeEQS0HGgqaEIBH0i2OUo2y1lvQXrTgb2kzRUPzAzxztq8EHEWhxlZSn7ULCuxlLgtfDu+UilHC//q9GLapFdjrI95O9aIV27a/VRQNfqIBmUu1HdqYwK4gv5B7tLtxnYSu1gPwZMaCgCA4fwT5ONTL8h3SGKWafq0IHqDqMUuyCaum+AAWAHMKkA7X8bt4BVRn4ZcOM31SUXlgB7SfruQUk6vwdYnEN3IdANXAeeAZ8kPQOuAfuE0zBagfPAd1SFbwIrjPIVYqsK5xwwL0J3LnDR0A2lb0CP+OTCGuC9JbrRwdtocd4B7QHddkP3M2rr4fvS/STryPsUXSfaSNaHq8AReb7i4F6RsqOo7lAV35UO7ipD9zJq3cAIAEe+LFwdeFtsENNJ9jYnxNYMVKQSswzuLLFVhANwUnxfAdMM7gzghZSdAsbFVki4p8X3uWilolscblO7F7sq9k7D1kny1TRKwB2x7zXsXSTdJc8er0QyHnfGODzAveXYJPZBwzYotk0Wd73Y7xu2e2LbEFlxF/R4vBtDHhXybMs+BXUU/YGaEuejZp1PwFSL20z91v4dySx0AxXQ+Ij6lFBjqwf4KhpvYwLRM4YLZ0m6jF5Xzkbq6PxX43kgoj4DHt9UhIj6aPpQUhX/mdoXSAvJOIypkOZ1i28hgTQBIwbnDTAxUictH1sfp1/W2aMCXDLyF1Cf+49EWkstNzjLMuiM6RdxLUrVQJm298lzW6Ayto4vHwufTn0mRMyBXxpIYefgBpDWYFEB/zPXQaFA9LydFXqd+NW6dbBX0kuRLy4L17dy512hXT79EX6UgNVWpfZH+B2gNvjV1H7xEupgZAebBrtR28kxJLaLyJkI7hnhbs+gq7csPpQNXlA3LbLH8rsoonKa8zjIqufYRwATmz0+mbEY1RpPI7hPhRtzm6J19fFVX5dq2NexsbpeNKHOD98I/9ESy7P51ciUqpvWtSrAS9QBqDXAaxXOS/FJg9YF2Ia6tBgxykdQx+dtkk/VjRn9w/IbuijT42MoQs/WHQbWok6V4yQ1o47aukun6sYEokVCgeiy4QDHRkwDResW9UXyBKIbaEGAo8v+6EB0twlN7bqs0EBiXphljGTpsll0vVhAcsPng75BDHUTGwvHSNeL8ah9znfc/yBNlLIK2c43E8SnaN0gnpC+aD3JoTtUlG7sLrIHdcPoww/UjUpWXBgj3f/47fgJ1B7S8d2VHMMAAAAASUVORK5CYII=" alt="" />
+                <div class="card__header-text">
+                  <h3 class="card__title">STAFF</h3>
+                </div>
+              </div>
+              <p class="card__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            </div>
+          </a>
+        </li>
+       
+      </ul>
+
+      <div class="wrapper">
+        <!-- these radio buttons hold state of which card is in front and which toggle button is visible -->
+        <input type="radio" name="sushi-lunch" id="happy-radio" class="check">
+        <input type="radio" name="sushi-lunch" id="lovers-radio" checked class="check">
+      
+        <div class="selector">
+          <label for="happy-radio" class="happy-card">
+            <h1>MISION</h1>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</li>
+              
+            </ul>
+          </label>
+      
+          <label for="lovers-radio" class="lovers-card">
+            <h1>VISION</h1>
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</p>
+            <ul>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, blanditiis?</li>
+            </ul>
+          </label>
+          
+          <label for="happy-radio" class="happy-pick">Switch to Happy Sushi Lunch!</label>
+          <label for="lovers-radio" class="lovers-pick">Switch to Sushi Lover's Lunch!</label>
+        </div>
+      </div>
+
+      <section>
+        <!-- Contact container -->
+        
+        <div class="contact-container">
+            <!-- Form -->
+           
+            <div class="form-container">
+                <h3>Message Us</h3>
+                <form action="messageUs.php" class="contact-form" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="" placeholder="Enter Your Email..." required>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Write Message Here..." required></textarea>
+                    <input type="submit" value="Send" class="send-button">
+                </form>
+            </div>
+            <!-- Map -->
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3734.4318292657285!2d-105.2313661!3d20.611248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8421454fe65ea447%3A0x4eab7e1c33951a3c!2sCondominios%20Puesta%20del%20Sol%20A.C.!5e0!3m2!1ses-419!2smx!4v1668741330475!5m2!1ses-419!2smx" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+       
+    </section><br><br><br><br>
+     
+
+
+</body>
+<script defer src="js/slider.js"></script>
+
+</html>

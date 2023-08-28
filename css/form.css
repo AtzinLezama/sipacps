@@ -1,0 +1,48 @@
+.form{
+    margin: 3em;
+    margin-top: 3em;
+    
+   
+}
+
+.btn-form{
+    width: 7em;
+    color: white;
+    background-color: rgb(13, 102, 219);
+    border-style: none;
+    border-radius: 5px;
+}
+
+.form1{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow: hidden;
+    width: 50em;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255, 255, 255, 0.060);
+    border: .1rem solid rgba(255, 255, 255, 0.18);
+    color: var(--white-text);
+    margin-top: 4em;
+    text-align: center;
+}
+
+
+@media (max-width: 800px) {
+   .center{
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    overflow: hidden;
+    width: 50em;
+    backdrop-filter: blur(1rem);
+    background-color: rgba(255, 255, 255, 0.060);
+    border: .1rem solid rgba(255, 255, 255, 0.18);
+    color: var(--white-text);
+    margin-top: 4em;
+   }
+}
